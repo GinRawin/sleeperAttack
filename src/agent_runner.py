@@ -10,7 +10,6 @@ from dataclasses import dataclass
 import time
 import asyncio
 import traceback
-import uuid
 from tqdm import tqdm
 
 from agents import Agent, Runner, RunConfig, OpenAIChatCompletionsModel, ModelSettings, SQLiteSession, set_tracing_disabled, set_tracing_export_api_key, function_tool
@@ -244,24 +243,21 @@ class AgentRunner:
         test_case: TestCase,
         tool_manager=None,
         *,
-        persistent_state=None,
+        cross_session=False,
         state_observer=None,
-        simulator_cache_file=None,
-        exact_tool_results=False,
+        persistent_read_source_warning=False,
+        source_warning_events=None,
     ) -> CaseResult:
 
 
         start_time = time.time()
         turn_logs = []
         session_id = f"{self.session_prefix}_{test_case.case_id}_{int(start_time)}"
-        if exact_tool_results:
-            session_id += "_" + uuid.uuid4().hex
 
         simulator = ToolSimulator(
             api_key=self.simulator_api_key,
             base_url=self.simulator_base_url,
             model=self.simulator_model,
-            cache_file_path=simulator_cache_file,
         )
         if defense_guard and defense_guard.is_enabled():
             defense_guard.begin_case(
@@ -275,7 +271,7 @@ class AgentRunner:
             simulator.set_user_prior_knowledge(prior)
         gt_params = getattr(test_case, "ground_truth_params", None)
         simulator.set_ground_truth_params(gt_params if gt_params is not None else [])
-        if state_observer or persistent_state is not None or self._has_memory_tools(test_case.visible_tools):
+        if self._has_memory_tools(test_case.visible_tools):
             try:
                 virtual_tools.set_memory_store(test_case.memory_init or {})
             except Exception as e:
@@ -332,13 +328,6 @@ class AgentRunner:
 
         try:
 
-            if persistent_state is not None:
-                from .skill_registry import get_registry
-                virtual_tools.restore_memory_state(persistent_state["memory"])
-                get_registry().restore_state(persistent_state["skills"])
-            if state_observer:
-                state_observer("initial")
-
             session = SQLiteSession(session_id)
 
 
@@ -350,7 +339,14 @@ class AgentRunner:
                 pass
 
 
-            for turn in test_case.turns:
+            for turn_index, turn in enumerate(test_case.turns):
+                if cross_session and turn_index:
+                    # Only persistent stores and benchmark control state continue.
+                    # Drop dialogue seen by the agent AND by the tool simulator.
+                    session = SQLiteSession(f"{session_id}_session_{turn_index + 1}")
+                    simulator.clear_history()
+                if state_observer:
+                    state_observer("session_start", turn.turn_id)
                 turn_start = time.time()
                 turn_visible_tools = turn.visible_tools or test_case.visible_tools
                 if defense_guard and defense_guard.is_enabled():
@@ -371,6 +367,12 @@ class AgentRunner:
 
                 turn_visible_tools = turn.visible_tools or test_case.visible_tools
                 turn_tools = self._get_visible_tools(turn_visible_tools)
+                if cross_session and turn_index and persistent_read_source_warning:
+                    from .source_warning import wrap_persistent_read
+                    events = source_warning_events if source_warning_events is not None else []
+                    turn_tools = [wrap_persistent_read(tool, test_case, turn.turn_id, events)
+                                  if tool.name in {"MemoryRetrieve", "SkillRead"} else tool
+                                  for tool in turn_tools]
 
 
                 if not use_injection_plan:
@@ -410,7 +412,6 @@ class AgentRunner:
                     injection_applied=turn.injection_config.enabled if turn.injection_config else False,
                     injection_target=turn.injection_config.target_tool if turn.injection_config else None,
                     injection_text=turn.injection_config.content if turn.injection_config else None,
-                    exact_tool_results=exact_tool_results,
                 )
 
 
@@ -433,6 +434,8 @@ class AgentRunner:
                     execution_time=time.time() - turn_start
                 )
                 turn_logs.append(turn_log)
+                if state_observer:
+                    state_observer("session_end", turn.turn_id)
 
                 print(f"Completed turn {turn.turn_id} for case {test_case.case_id}")
 
@@ -463,7 +466,7 @@ class AgentRunner:
         finally:
             try:
                 if state_observer:
-                    state_observer("final")
+                    state_observer("case_end", None)
             finally:
                 await simulator.client.close()
 
@@ -731,47 +734,7 @@ class AgentRunner:
         injection_applied: bool = False,
         injection_target: Optional[str] = None,
         injection_text: Optional[str] = None,
-        exact_tool_results: bool = False,
     ) -> List[Dict]:
-
-        if exact_tool_results:
-            # SDK output items are the evidence of what was returned to the agent.
-            # Matching by call_id handles repeated names and parallel tool calls.
-            items = getattr(turn_result, "new_items", []) or []
-            def field(obj, name):
-                return obj.get(name) if isinstance(obj, dict) else getattr(obj, name, None)
-            outputs = {}
-            for item in items:
-                if getattr(item, "type", None) == "tool_call_output_item":
-                    raw = item.raw_item
-                    outputs[field(raw, "call_id")] = getattr(item, "output", field(raw, "output"))
-            calls = []
-            for item in items:
-                if getattr(item, "type", None) != "tool_call_item":
-                    continue
-                raw = item.raw_item
-                call_id = field(raw, "call_id") or field(raw, "id")
-                args = field(raw, "arguments") or {}
-                output = outputs.get(call_id)
-                if isinstance(args, str):
-                    try:
-                        args = json.loads(args)
-                    except ValueError:
-                        pass
-                if isinstance(output, str):
-                    try:
-                        output = json.loads(output)
-                    except ValueError:
-                        pass
-                calls.append({"tool_name": field(raw, "name"), "call_id": call_id,
-                              "arguments": args, "result": output,
-                              "result_source": "sdk_call_output" if call_id in outputs else "missing",
-                              "injection_applied": bool(injection_text and self._tool_name_matches(
-                                  field(raw, "name"), injection_target) and
-                                  self._result_has_injection(output, injection_text))})
-            virtual_tools.get_and_clear_real_tool_calls()
-            return calls
-
 
         tool_calls: List[Dict] = []
         debug_items = []

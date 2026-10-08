@@ -40,7 +40,7 @@ def _safe_print(*parts: Any) -> None:
 class ToolSimulator:
 
 
-    def __init__(self, api_key: str, base_url: str, model: str = "deepseek-v3.2", *, cache_file_path: Optional[str] = None):
+    def __init__(self, api_key: str, base_url: str, model: str = "deepseek-v3.2"):
 
 
         request_timeout = float(os.getenv("REQUEST_TIMEOUT", "120"))
@@ -60,7 +60,7 @@ class ToolSimulator:
 
         self.result_cache: Dict[Tuple[str, str], Any] = {}
         self.result_cache_entries: Dict[Tuple[str, str], Dict[str, Any]] = {}
-        self.cache_file_path = cache_file_path or os.getenv("SIMULATOR_CACHE_FILE") or os.path.join("simulator_cache", "simulator_cache.json")
+        self.cache_file_path = os.getenv("SIMULATOR_CACHE_FILE") or os.path.join("simulator_cache", "simulator_cache.json")
         cache_dir = os.path.dirname(self.cache_file_path)
         if (cache_dir):
             os.makedirs(cache_dir, exist_ok=True)

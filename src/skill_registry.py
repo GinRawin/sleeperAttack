@@ -65,13 +65,6 @@ class SkillRegistry:
             "overrides": self._content_overrides,
         })
 
-    def restore_state(self, state: Dict[str, Any]) -> None:
-        if set(state["documents"]) != set(self._skills):
-            raise ValueError("Persisted skill IDs differ from the loaded registry")
-        for sid, content in state["documents"].items():
-            self._skills[sid].body_content = content
-        self._content_overrides = copy.deepcopy(state["overrides"])
-
     def find_skill_id_by_name(self, name: str) -> Optional[str]:
 
         if not name:

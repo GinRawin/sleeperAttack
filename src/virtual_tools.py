@@ -119,12 +119,6 @@ def export_memory_state() -> Dict[str, Any]:
     return copy.deepcopy({"entries": _get_memory_notes(), "legacy": _get_memory_store()})
 
 
-def restore_memory_state(state: Dict[str, Any]) -> None:
-    # Initialise both mutable objects in the parent task before SDK tool tasks run.
-    _memory_var.set(copy.deepcopy(state["legacy"]))
-    _memory_notes_var.set(copy.deepcopy(state["entries"]))
-
-
 def _legacy_store_as_notes() -> List[str]:
     notes = []
     for category, items in _get_memory_store().items():
@@ -537,10 +531,7 @@ async def MemoryDelete(category, target_key):
     if category is None and target_key == "DELETE_ALL_ENTRIES":
         had_notes = bool(_get_memory_notes())
         _get_memory_notes().clear()
-        # SDK tools can run in child tasks; preserve the parent task's store object.
-        store = _get_memory_store()
-        store.clear()
-        store.update(_new_memory_store())
+        _memory_var.set(_new_memory_store())
         result = {"success": True, "deleted": had_notes, "message": "cleared"}
         _record_real_tool_call("MemoryDelete", {"category": category, "target_key": target_key}, result)
         return result

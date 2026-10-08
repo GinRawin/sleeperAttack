@@ -4,6 +4,9 @@
 SQLiteSession；关闭防御，保留 PIE strict 替代 loose 以及 skill 读取/更新门槛。
 业务工具依然使用模拟器，不执行真实业务操作。
 
+将同一批 memory/skill 实例改为两个独立会话的扩展实验，见
+[README_cross_session.md](README_cross_session.md)。原抽样入口保持同会话两轮。
+
 每类先随机抽基础 case ID，再取三个载体的对应版本。固定种子 42：PIE 和 LIP
 各载体 49 条，PIC 各载体 45 条，合计 429 条实例、143 个基础 case ID。
 `context` 对应 `session`。不包含 single 和补充数据。
