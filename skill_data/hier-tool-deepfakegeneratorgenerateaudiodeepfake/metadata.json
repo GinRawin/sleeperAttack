@@ -1,0 +1,4 @@
+{
+  "name": "Generate Audio Deepfake",
+  "description": "Create synthetic audio by cloning a target voice onto source audio."
+}

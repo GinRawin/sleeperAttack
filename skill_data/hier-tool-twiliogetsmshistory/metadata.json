@@ -1,0 +1,4 @@
+{
+  "name": "Get Twilio SMS History",
+  "description": "Retrieve history of sent SMS messages."
+}

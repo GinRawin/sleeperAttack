@@ -1,0 +1,4 @@
+{
+  "name": "Get EpicFHIR Patient Details",
+  "description": "Retrieve demographics and clinical details for a patient."
+}

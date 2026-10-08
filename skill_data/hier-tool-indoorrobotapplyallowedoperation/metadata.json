@@ -1,0 +1,4 @@
+{
+  "name": "Apply Robot Operation on Object",
+  "description": "Execute a pre-approved physical operation on a target object, optionally using grabbed objects as tools."
+}

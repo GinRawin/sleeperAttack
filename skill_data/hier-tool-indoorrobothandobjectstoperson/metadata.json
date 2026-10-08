@@ -1,0 +1,4 @@
+{
+  "name": "Hand Objects to Person",
+  "description": "Transfer grabbed objects from robot to a person in the same room."
+}

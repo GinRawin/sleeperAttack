@@ -1,0 +1,4 @@
+{
+  "name": "Download Spokeo Public Record",
+  "description": "Download a specific Spokeo public record to a local path."
+}

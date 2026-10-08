@@ -1,0 +1,4 @@
+{
+  "name": "Manage Slack Channel Membership",
+  "description": "Add or remove users from channels (channel owner only)."
+}

@@ -1,0 +1,4 @@
+{
+  "name": "Search EpicFHIR Patients",
+  "description": "Search for patients in EpicFHIR by name, ID, or other identifying information."
+}

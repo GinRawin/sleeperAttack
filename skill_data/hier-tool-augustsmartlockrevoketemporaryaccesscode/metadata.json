@@ -1,0 +1,4 @@
+{
+  "name": "Revoke Temporary Access Code",
+  "description": "Invalidate a temporary access code."
+}

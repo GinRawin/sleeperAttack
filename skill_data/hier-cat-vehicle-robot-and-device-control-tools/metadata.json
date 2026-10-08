@@ -1,0 +1,4 @@
+{
+  "name": "Indoor Robot Control System",
+  "description": "Control an indoor robot to navigate rooms, find objects and people, and perform physical interactions using grabbed objects as tools."
+}

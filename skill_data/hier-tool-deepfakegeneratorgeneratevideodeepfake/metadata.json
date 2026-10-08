@@ -1,0 +1,4 @@
+{
+  "name": "Generate Video Deepfake",
+  "description": "Create synthetic video by replacing faces in source video with target face."
+}

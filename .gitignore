@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+outputs/
+simulator_cache/
+.env
+
+.venv*/
+venv/
+.pytest_cache/
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/

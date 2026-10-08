@@ -1,0 +1,4 @@
+{
+  "name": "Get Binance Trade History",
+  "description": "Retrieve executed trade history for cryptocurrency pairs."
+}

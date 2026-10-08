@@ -1,0 +1,4 @@
+{
+  "name": "Get Spokeo Criminal History",
+  "description": "Retrieve criminal history records for a person by unique identifier."
+}

@@ -1,0 +1,4 @@
+{
+  "name": "Convert Address to Coordinates",
+  "description": "Get latitude/longitude coordinates for a street address."
+}

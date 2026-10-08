@@ -1,0 +1,4 @@
+{
+  "name": "Manage EpicFHIR Diagnostic Reports",
+  "description": "List, create, update, or delete diagnostic reports for a patient."
+}

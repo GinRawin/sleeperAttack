@@ -1,0 +1,4 @@
+{
+  "name": "Send Slack Message",
+  "description": "Send messages and files to channels or users."
+}

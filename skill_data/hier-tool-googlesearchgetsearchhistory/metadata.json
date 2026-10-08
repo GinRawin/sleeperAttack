@@ -1,0 +1,4 @@
+{
+  "name": "Retrieve Google Search History",
+  "description": "Get the user's past Google search queries within a specified time range."
+}

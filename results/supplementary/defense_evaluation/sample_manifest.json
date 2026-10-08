@@ -1,0 +1,2252 @@
+[
+  {
+    "case_id": "450_001",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_002",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_003",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_004",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_005",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_006",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_007",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_008",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_009",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_010",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_011",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_012",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_013",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_014",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_015",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_016",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_017",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_018",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_019",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_020",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_021",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_022",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_023",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_024",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_025",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_026",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_027",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_028",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_029",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_030",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_031",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_032",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_033",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_034",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_035",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_036",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_037",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_038",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_039",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_040",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_041",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_042",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_043",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_044",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_045",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_046",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_047",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_048",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_049",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_050",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_051",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_052",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_053",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_054",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_055",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_056",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_057",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_058",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_059",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_060",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_061",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_062",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_063",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_064",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_065",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_066",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_067",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_068",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_069",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_070",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_071",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_072",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_073",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_074",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_075",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_076",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_077",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_078",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_079",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_080",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_081",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_082",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_083",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_084",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_085",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_086",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_087",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_088",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_089",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_090",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_091",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_092",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_093",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_094",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_095",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_096",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_097",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_098",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_099",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_100",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_101",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_102",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_103",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_104",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_105",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_106",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_107",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_108",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_109",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_110",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_111",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_112",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_113",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_114",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_115",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_116",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_117",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_118",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_119",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_120",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_121",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_122",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_123",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_124",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_125",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_126",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_127",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_128",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_129",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_130",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_131",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_132",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_133",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_134",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_135",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_136",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_137",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_138",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_139",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_140",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_141",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_142",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_143",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_144",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_145",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_146",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_147",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_148",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_149",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_150",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_151",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_152",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_153",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_154",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_155",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_156",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_157",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_158",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_159",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_160",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_161",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_162",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_163",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_164",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_165",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_166",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_167",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_168",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_169",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_170",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_171",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_172",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_173",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_174",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_175",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_176",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_177",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_178",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_179",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_180",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_181",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_182",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_183",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_184",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_185",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_186",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_187",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_188",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_189",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_190",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_191",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_192",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_193",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_194",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_195",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_196",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_197",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_198",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_199",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_200",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_201",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_202",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_203",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_204",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_205",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_206",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_207",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_208",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_209",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_210",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_211",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_212",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_213",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_214",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_215",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_216",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_217",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_218",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_219",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_220",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_221",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_222",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_223",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_224",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_225",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_226",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_227",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_228",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_229",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_230",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_231",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_232",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_233",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_234",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_235",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_236",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_237",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_238",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_239",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_240",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_241",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_242",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_243",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_244",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_245",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_246",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_247",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_248",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_249",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_250",
+    "attack_strategy": "LIP",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_251",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_252",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_253",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_254",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_255",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_256",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_257",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_258",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_259",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_260",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_261",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_262",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_263",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_264",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_265",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_266",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_267",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_268",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_269",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_270",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_271",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_272",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_273",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_274",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_275",
+    "attack_strategy": "LIP",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_276",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_277",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_278",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_279",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_280",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_281",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_282",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_283",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_284",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_285",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_286",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_287",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_288",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_289",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_290",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_291",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_292",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_293",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_294",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_295",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_296",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_297",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_298",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_299",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_300",
+    "attack_strategy": "LIP",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_301",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_302",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_303",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_304",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_305",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_306",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_307",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_308",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_309",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_310",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_311",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_312",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_313",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_314",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_315",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_316",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_317",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_318",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_319",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_320",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_321",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_322",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_323",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_324",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_325",
+    "attack_strategy": "PIE",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_326",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_327",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_328",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_329",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_330",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_331",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_332",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_333",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_334",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_335",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_336",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_337",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_338",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_339",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_340",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_341",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_342",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_343",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_344",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_345",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_346",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_347",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_348",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_349",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_350",
+    "attack_strategy": "PIE",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_351",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_352",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_353",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_354",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_355",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_356",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_357",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_358",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_359",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_360",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_361",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_362",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_363",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_364",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_365",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_366",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_367",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_368",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_369",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_370",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_371",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_372",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_373",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_374",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_375",
+    "attack_strategy": "PIE",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_376",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_377",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_378",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_379",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_380",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_381",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_382",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_383",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_384",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_385",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_386",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_387",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_388",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_389",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_390",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_391",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_392",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_393",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_394",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_395",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_396",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_397",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_398",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_399",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_400",
+    "attack_strategy": "PIC",
+    "agent_state": "session"
+  },
+  {
+    "case_id": "450_401",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_402",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_403",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_404",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_405",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_406",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_407",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_408",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_409",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_410",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_411",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_412",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_413",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_414",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_415",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_416",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_417",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_418",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_419",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_420",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_421",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_422",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_423",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_424",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_425",
+    "attack_strategy": "PIC",
+    "agent_state": "memory"
+  },
+  {
+    "case_id": "450_426",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_427",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_428",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_429",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_430",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_431",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_432",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_433",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_434",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_435",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_436",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_437",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_438",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_439",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_440",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_441",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_442",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_443",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_444",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_445",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_446",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_447",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_448",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_449",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  },
+  {
+    "case_id": "450_450",
+    "attack_strategy": "PIC",
+    "agent_state": "skill"
+  }
+]

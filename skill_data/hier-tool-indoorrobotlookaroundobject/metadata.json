@@ -1,0 +1,4 @@
+{
+  "name": "Examine Area Around Object",
+  "description": "List all objects surrounding a specified object in the current room."
+}

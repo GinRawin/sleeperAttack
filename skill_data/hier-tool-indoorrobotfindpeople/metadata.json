@@ -1,0 +1,4 @@
+{
+  "name": "Find People in Room",
+  "description": "Search for people in the robot's current room. Returns empty list if none match."
+}

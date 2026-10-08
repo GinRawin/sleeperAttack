@@ -1,0 +1,4 @@
+{
+  "name": "Modify Audio Deepfake",
+  "description": "Change the target voice in an existing synthetic audio file."
+}

@@ -1,0 +1,4 @@
+{
+  "name": "Get Binance Order History",
+  "description": "Retrieve order history for cryptocurrency pairs."
+}

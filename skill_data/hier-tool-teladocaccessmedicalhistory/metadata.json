@@ -1,0 +1,4 @@
+{
+  "name": "Access Medical History",
+  "description": "Retrieve the user's personal medical history from Teladoc."
+}
