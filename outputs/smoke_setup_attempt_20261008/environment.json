@@ -1,0 +1,12 @@
+{
+  "python": "3.13.13 | packaged by Anaconda, Inc. | (main, Apr 14 2026, 06:19:41) [GCC 14.3.0]",
+  "executable": "/home/hjr/sleeperAttack/.venv-repro/bin/python",
+  "packages": {
+    "openai": "2.26.0",
+    "openai-agents": "0.14.0",
+    "httpx": "0.28.1",
+    "pydantic": "2.13.2",
+    "json-repair": "0.63.4",
+    "tqdm": "4.67.3"
+  }
+}

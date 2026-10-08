@@ -1,0 +1,19 @@
+{
+  "model": "ep-20260921205410-m6s4d",
+  "endpoint_sha256": "cf241555f7ba3b0018801f05de0dc172e875406cbb8085336d201ce2ccb1759e",
+  "case_concurrency": 2,
+  "settings": {
+    "ENABLE_DEFENSE": "false",
+    "EVAL_REQUIRE_SKILL_UPDATE_READ": "true",
+    "MAX_AGENT_TURNS": "30",
+    "REQUEST_TIMEOUT": "120",
+    "LLM_REQUESTS_PER_MINUTE": "10",
+    "LLM_MAX_IN_FLIGHT": "2",
+    "LLM_429_MAX_RETRIES": "12",
+    "LLM_RETRY_BASE_SECONDS": "6",
+    "LLM_RETRY_MAX_SECONDS": "120",
+    "SIMULATOR_CACHE_FILE": "/home/hjr/sleeperAttack/outputs/repro_deepseek_flash_30pct_seed42/simulator_cache.json",
+    "SKILL_DATA_DIR": "/home/hjr/sleeperAttack/skill_data"
+  },
+  "evaluation": "released_evaluator_including_PIE_strict_replacement"
+}

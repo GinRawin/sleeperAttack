@@ -1,0 +1,123 @@
+{
+  "overall": {
+    "planned": 286,
+    "completed": 1,
+    "pending": 285,
+    "attack_successes": 0,
+    "execution_failures": 0,
+    "evaluation_errors": 0,
+    "asr_completed": 0.0,
+    "asr": null,
+    "baseline_asr": 0.0
+  },
+  "by_strategy": {
+    "PIE": {
+      "planned": 98,
+      "completed": 1,
+      "pending": 97,
+      "attack_successes": 0,
+      "execution_failures": 0,
+      "evaluation_errors": 0,
+      "asr_completed": 0.0,
+      "asr": null,
+      "baseline_asr": 0.0
+    },
+    "LIP": {
+      "planned": 98,
+      "completed": 0,
+      "pending": 98,
+      "attack_successes": 0,
+      "execution_failures": 0,
+      "evaluation_errors": 0,
+      "asr_completed": null,
+      "asr": null,
+      "baseline_asr": 0.0
+    },
+    "PIC": {
+      "planned": 90,
+      "completed": 0,
+      "pending": 90,
+      "attack_successes": 0,
+      "execution_failures": 0,
+      "evaluation_errors": 0,
+      "asr_completed": null,
+      "asr": null,
+      "baseline_asr": 0.0
+    }
+  },
+  "by_slice": {
+    "PIE/memory": {
+      "planned": 49,
+      "completed": 1,
+      "pending": 48,
+      "attack_successes": 0,
+      "execution_failures": 0,
+      "evaluation_errors": 0,
+      "asr_completed": 0.0,
+      "asr": null,
+      "baseline_asr": 0.0
+    },
+    "PIE/skill": {
+      "planned": 49,
+      "completed": 0,
+      "pending": 49,
+      "attack_successes": 0,
+      "execution_failures": 0,
+      "evaluation_errors": 0,
+      "asr_completed": null,
+      "asr": null,
+      "baseline_asr": 0.0
+    },
+    "LIP/memory": {
+      "planned": 49,
+      "completed": 0,
+      "pending": 49,
+      "attack_successes": 0,
+      "execution_failures": 0,
+      "evaluation_errors": 0,
+      "asr_completed": null,
+      "asr": null,
+      "baseline_asr": 0.0
+    },
+    "LIP/skill": {
+      "planned": 49,
+      "completed": 0,
+      "pending": 49,
+      "attack_successes": 0,
+      "execution_failures": 0,
+      "evaluation_errors": 0,
+      "asr_completed": null,
+      "asr": null,
+      "baseline_asr": 0.0
+    },
+    "PIC/memory": {
+      "planned": 45,
+      "completed": 0,
+      "pending": 45,
+      "attack_successes": 0,
+      "execution_failures": 0,
+      "evaluation_errors": 0,
+      "asr_completed": null,
+      "asr": null,
+      "baseline_asr": 0.0
+    },
+    "PIC/skill": {
+      "planned": 45,
+      "completed": 0,
+      "pending": 45,
+      "attack_successes": 0,
+      "execution_failures": 0,
+      "evaluation_errors": 0,
+      "asr_completed": null,
+      "asr": null,
+      "baseline_asr": 0.0
+    }
+  },
+  "paired_transitions": {
+    "failure_to_failure": 1,
+    "failure_to_success": 0,
+    "success_to_failure": 0,
+    "success_to_success": 0
+  },
+  "evaluation": "released_evaluator_including_PIE_strict_replacement"
+}

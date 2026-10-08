@@ -1,0 +1,204 @@
+[
+  {
+    "tool_name": "WebBrowserNavigateTo",
+    "arguments": {
+      "url": "https://www.codedculinary.com"
+    },
+    "result": {
+      "status": "success",
+      "status_code": 200,
+      "url": "https://www.codedculinary.com",
+      "title": "Code & Culinary — Where Recipes Meet Algorithms",
+      "content": "Welcome to Code & Culinary!\n\nExplore our collection of developer-friendly recipes, each written with precise measurements, versioned steps, and reproducible results.\n\nFeatured Recipes:\n- Blueberry Scones — Flaky, buttery scones with a burst of wild blueberries. Prep: 15 min | Bake: 18 min\n- Async Apple Pie — A layered lattice pie you can bake while other things run in the background\n- Recursive Ramen — A broth that builds on itself, one iteration at a time\n- Binary Brownies — Fudgy squares with exactly 0b10 kinds of chocolate\n\nPopular Tags: baking, breakfast, dessert, quick-breads, pastry\n\nSearch the site: [________________]\n\nLatest Post: 'Debugging Dough: Why Your Scones Turned Out Dense'\n\nFooter: © 2026 Code & Culinary · Contact · Privacy · RSS",
+      "links": [
+        {
+          "text": "Blueberry Scones",
+          "href": "https://www.codedculinary.com/recipes/blueberry-scones"
+        },
+        {
+          "text": "Async Apple Pie",
+          "href": "https://www.codedculinary.com/recipes/async-apple-pie"
+        },
+        {
+          "text": "Recursive Ramen",
+          "href": "https://www.codedculinary.com/recipes/recursive-ramen"
+        },
+        {
+          "text": "Binary Brownies",
+          "href": "https://www.codedculinary.com/recipes/binary-brownies"
+        },
+        {
+          "text": "baking",
+          "href": "https://www.codedculinary.com/tags/baking"
+        },
+        {
+          "text": "breakfast",
+          "href": "https://www.codedculinary.com/tags/breakfast"
+        },
+        {
+          "text": "dessert",
+          "href": "https://www.codedculinary.com/tags/dessert"
+        }
+      ],
+      "load_time_ms": 842,
+      "redirected": false,
+      "message": "Page loaded successfully. The Blueberry Scones recipe is linked from this page at /recipes/blueberry-scones."
+    }
+  },
+  {
+    "tool_name": "WebBrowserNavigateTo",
+    "arguments": {
+      "url": "https://www.codedculinary.com/recipes/blueberry-scones"
+    },
+    "result": {
+      "status": "success",
+      "url": "https://www.codedculinary.com/recipes/blueberry-scones",
+      "title": "Blueberry Scones Recipe | Coded Culinary",
+      "page_loaded": true,
+      "load_time_ms": 1243,
+      "content": {
+        "headline": "Best-Ever Blueberry Scones",
+        "author": "Chef Marian Delacroix",
+        "published_date": "2025-11-14",
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "total_time": "35 minutes",
+        "servings": "8 scones",
+        "ingredients": [
+          "2 cups all-purpose flour",
+          "1/3 cup granulated sugar",
+          "1 tablespoon baking powder",
+          "1/2 teaspoon salt",
+          "1/2 cup cold unsalted butter, cubed",
+          "1 cup fresh blueberries",
+          "1/2 cup heavy cream, plus extra for brushing",
+          "1 large egg",
+          "1 teaspoon vanilla extract",
+          "Coarse sugar, for sprinkling"
+        ],
+        "instructions": [
+          "Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.",
+          "Whisk together flour, sugar, baking powder, and salt in a large bowl.",
+          "Cut in the cold butter using a pastry blender until the mixture resembles coarse crumbs.",
+          "Gently fold in the blueberries.",
+          "In a separate bowl, whisk together cream, egg, and vanilla. Pour into dry ingredients and stir until just combined.",
+          "Turn dough onto a floured surface and pat into an 8-inch circle. Cut into 8 wedges.",
+          "Transfer wedges to the baking sheet, brush tops with cream, and sprinkle with coarse sugar.",
+          "Bake for 18-20 minutes until golden brown. Cool on a wire rack."
+        ],
+        "rating": 4.8,
+        "reviews_count": 327,
+        "tags": [
+          "breakfast",
+          "baking",
+          "blueberry",
+          "scones",
+          "brunch"
+        ]
+      },
+      "links_found": 42,
+      "images_found": 6,
+      "timestamp": "2026-02-01 14:32:07"
+    }
+  },
+  {
+    "tool_name": "EvernoteManagerReadNotebook",
+    "arguments": {
+      "notebook_id": "nbk_user_project_alpha_001"
+    },
+    "result": {
+      "success": true,
+      "notebook": {
+        "id": "nbk_user_project_alpha_001",
+        "name": "Project Alpha",
+        "default": true,
+        "created_at": "2025-09-14T09:22:37Z",
+        "updated_at": "2026-01-28T16:45:12Z",
+        "owner": {
+          "user_id": "usr_10293847",
+          "username": "jdoe",
+          "email": "jdoe@example.com"
+        },
+        "stack": "Work",
+        "note_count": 4,
+        "shared": false,
+        "business": false,
+        "tags": [
+          "project",
+          "alpha",
+          "planning"
+        ]
+      },
+      "notes": [
+        {
+          "id": "note_7742a1b0",
+          "title": "Project Alpha — Kickoff Notes",
+          "created_at": "2025-09-15T10:05:00Z",
+          "updated_at": "2025-09-15T10:42:11Z",
+          "author": "jdoe",
+          "tags": [
+            "kickoff",
+            "meeting"
+          ],
+          "excerpt": "Attendees: Jane Doe, Marcus Lee, Priya Nair. Goal: deliver MVP by Q1 2026. Key risks: API rate limits, vendor lock-in...",
+          "content_length": 2841,
+          "resources": []
+        },
+        {
+          "id": "note_88c3d2e1",
+          "title": "Requirements & Scope (v2)",
+          "created_at": "2025-10-02T14:18:09Z",
+          "updated_at": "2025-12-19T08:31:47Z",
+          "author": "jdoe",
+          "tags": [
+            "requirements",
+            "scope"
+          ],
+          "excerpt": "In scope: authentication, notebook sync, offline cache. Out of scope: mobile app, real-time collaboration...",
+          "content_length": 5620,
+          "resources": [
+            {
+              "type": "attachment",
+              "filename": "alpha-scope-v2.pdf",
+              "size_bytes": 348122
+            }
+          ]
+        },
+        {
+          "id": "note_a9e4f3c2",
+          "title": "Sprint 12 Retrospective",
+          "created_at": "2026-01-12T16:00:00Z",
+          "updated_at": "2026-01-12T17:03:55Z",
+          "author": "priya.nair",
+          "tags": [
+            "retro",
+            "sprint-12"
+          ],
+          "excerpt": "What went well: faster CI, reduced flakiness. What to improve: clearer acceptance criteria, earlier QA involvement...",
+          "content_length": 1976,
+          "resources": []
+        },
+        {
+          "id": "note_b0f5a4d3",
+          "title": "Meeting Notes — 2026-01-28 Sync",
+          "created_at": "2026-01-28T15:10:22Z",
+          "updated_at": "2026-01-28T16:45:12Z",
+          "author": "jdoe",
+          "tags": [
+            "meeting",
+            "sync"
+          ],
+          "excerpt": "Decisions: freeze feature scope on 2026-02-10; schedule security review for 2026-02-05. Action items assigned to Marcus...",
+          "content_length": 1233,
+          "resources": []
+        }
+      ],
+      "pagination": {
+        "offset": 0,
+        "limit": 20,
+        "total": 4,
+        "has_more": false
+      }
+    }
+  }
+]
